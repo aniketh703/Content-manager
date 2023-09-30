@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Content Management Tool</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div id="toggle-container">
+      <label class="switch">
+        <input type="checkbox" id="dark-mode-toggle" />
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <div id="container">
+      <h1 class="title">Content Management Project</h1>
+      <div id="addForm">
+        <h2>Add Article</h2>
+        <form>
+          <label for="title">Title:</label>
+          <input
+            type="text"
+            id="title"
+            required
+            placeholder="Title for your project"
+            class="large-input"
+          /><br /><br />
+          <label for="content">Content:</label><br />
+          <textarea id="content" required placeholder="Add content of your project" class="large-placeholder"></textarea><br /><br />
+          <div class="options">
+            <button id="addImage" class="button-30">Add Image</button>
+            <button id="addVideo" class="button-30">Add Video</button>
+            <button id="addImageUrl" class="button-30">Image URL</button>
+            <button id="addVideoUrl" class="button-30">Video URL</button>
+          </div>
+          <div class="btn-container">
+            <button type="submit" class="button-35">Add</button>
+          </div>
+        </form>
+      </div>
+      <div id="articleTable">
+        <h2>Articles</h2>
+        <table>
+          <tr>
+            <th>Title</th>
+            <th>Content</th>
+            <th>Actions</th>
+          </tr>
+        </table>
+        <div id="articleContent"></div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

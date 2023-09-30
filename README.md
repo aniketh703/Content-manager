@@ -7,8 +7,6 @@ This project encompasses HTML, CSS, and JavaScript to provide a comprehensive so
 - [About](#about)
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Contributing](#contributing)
 
 ## About
 
